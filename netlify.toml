@@ -1,6 +1,6 @@
 [build]
   base = "/"
-  command = "npm run build"
+  command = "vite build"
   publish = "dist"
   functions = "netlify/functions"  # Recommended functions location
 
