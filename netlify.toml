@@ -13,10 +13,7 @@
   VITE_API_URL = "https://api.yourservice.com"
 
 # For Single Page Applications
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+
 
 # Optional headers for security
 [[headers]]
