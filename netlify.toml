@@ -22,5 +22,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
-    Content-Security-Policy = "default-src 'self'"
+    Content-Type = "application/javascript"
