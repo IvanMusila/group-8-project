@@ -3,7 +3,7 @@ import Itinerary from '../Itinerary/Itinerary';
 import { Link } from 'react-router-dom';
 import '../../styles/TripsPage.css'; 
 
-const TripsPage = ({ joinedTrips, onJoinTrip }) => {
+const MyTripsPage = ({ joinedTrips, onJoinTrip }) => {
     const [destinations, setDestinations] = useState([]);
     const [searchQuery, setSearchQuery] = useState('paris');
     const [loading, setLoading] = useState(false);
@@ -157,4 +157,4 @@ const TripsPage = ({ joinedTrips, onJoinTrip }) => {
     );
 };
 
-export default TripsPage;
+export default MyTripsPage;
