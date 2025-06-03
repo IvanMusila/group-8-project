@@ -10,7 +10,9 @@ export default defineConfig({
   preview: {
     allowedHosts: ['devserver-main--group-travel-planner.netlify.app']
   },
-  headers: {
-    'Content-Type': 'application/javascript',
-  },
+  // server: {
+  //   headers: {
+  //     'Content-Type': 'application/javascript'
+  //   }
+  // },
 });
